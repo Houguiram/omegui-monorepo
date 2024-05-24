@@ -14,7 +14,6 @@
   "files": ["dist"],
   "keywords": ["tamagui"],
   "license": "MIT",
-
   "homepage": "https://github.com/Houguiram/omegui-monorepo/tree/main/packages/theme-generator#omegui-theme-generator",
   "repository": {
     "type": "git",

@@ -2,5 +2,8 @@
   "name": "omegui",
   "private": true,
   "version": "0.1.4",
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "bun --filter '*' test"
+  }
 }
