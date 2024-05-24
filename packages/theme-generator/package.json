@@ -14,12 +14,13 @@
   "files": ["dist"],
   "keywords": ["tamagui"],
   "license": "MIT",
-  "homepage": "https://github.com/Houguiram/omegui-theme-generator#README.md",
+
+  "homepage": "https://github.com/Houguiram/omegui-monorepo/tree/main/packages/theme-generator#omegui-theme-generator",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Houguiram/omegui-theme-generator.git"
+    "url": "git+https://github.com/Houguiram/omegui-monorepo.git"
   },
-  "bugs": "https://github.com/Houguiram/omegui-theme-generator/issues",
+  "bugs": "https://github.com/Houguiram/omegui-monorepo/issues",
   "author": "Marin Godechot <marin.godechot@gmail.com>",
   "devDependencies": {
     "bun-plugin-dts": "^0.2.1",
