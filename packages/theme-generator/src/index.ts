@@ -1,0 +1,1 @@
+export { omeguiThemeGenerator } from "./themeGenerator";

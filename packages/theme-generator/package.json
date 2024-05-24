@@ -1,0 +1,32 @@
+{
+  "name": "omegui-theme-generator",
+  "version": "0.1.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "test": "bun test",
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build",
+    "release": "npm publish"
+  },
+  "files": ["dist"],
+  "keywords": ["tamagui"],
+  "license": "MIT",
+  "homepage": "https://github.com/Houguiram/omegui-theme-generator#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Houguiram/omegui-theme-generator.git"
+  },
+  "bugs": "https://github.com/Houguiram/omegui-theme-generator/issues",
+  "author": "Marin Godechot <marin.godechot@gmail.com>",
+  "devDependencies": {
+    "bun-plugin-dts": "^0.2.1",
+    "@types/bun": "^1.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "colorjs.io": "^0.5.0"
+  }
+}
