@@ -1,9 +1,5 @@
 # Omegui theme generator
 
-## Disclaimer
-
-This tool is still in early development and may not work as expected. Please report any issues you encounter.
-
 ## Description
 
 Omegui is a set of tools to make Tamagui easier to set up and customize.
