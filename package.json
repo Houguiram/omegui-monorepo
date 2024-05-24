@@ -1,8 +1,10 @@
 {
   "name": "omegui",
   "private": true,
-  "version": "0.1.4",
-  "workspaces": ["packages/*"],
+  "version": "0.1.6",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "bun --filter '*' test"
   }
