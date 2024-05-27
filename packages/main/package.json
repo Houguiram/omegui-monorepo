@@ -1,0 +1,40 @@
+{
+  "version": "0.0.1",
+  "name": "omegui-main",
+  "private": true,
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "dist/cjs",
+  "module": "dist/esm",
+  "types": "./types/index.d.ts",
+  "files": [
+    "types",
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist types && tamagui-build",
+    "clean": "rimraf .turbo dist types",
+    "dev": "tamagui-build --watch"
+  },
+  "dependencies": {
+    "tamagui": "1.99.1",
+    "@tamagui/config": "1.99.1"
+  },
+  "devDependencies": {
+    "@tamagui/build": "1.99.1",
+    "@tamagui/config": "1.99.1",
+    "@types/node": "^20.11.24",
+    "@types/eslint": "^8.56.5",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "eslint": "^8.57.0",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "module:jsx": "dist/jsx",
+  "publishConfig": {
+    "access": "public"
+  }
+}

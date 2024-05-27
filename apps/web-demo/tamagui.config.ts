@@ -5,7 +5,7 @@ import { omeguiThemeGenerator } from "omegui-theme-generator";
 const tamaguiConfig = createTamagui({
   ...config,
   themes: {
-    ...config.themes,
+    // ...config.themes,
     ...omeguiThemeGenerator({
       light: "nord",
       dark: "dracula",
@@ -17,7 +17,7 @@ export default tamaguiConfig;
 
 // make TypeScript type everything based on your config
 type Conf = typeof tamaguiConfig;
-declare module "@tamagui/core" {
+declare module "tamagui" {
   // or 'tamagui'
   interface TamaguiCustomConfig extends Conf {}
 }
