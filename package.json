@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.1.6",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "scripts": {
     "test": "bun --filter '*' test"
