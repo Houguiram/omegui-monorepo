@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <TamaguiProvider config={tamaguiConfig} defaultTheme="dark">
       <App />
     </TamaguiProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );

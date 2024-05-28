@@ -10,6 +10,7 @@ export type InputTheme = {
   background?: string;
   background2?: string;
   background3?: string;
+  background4?: string;
   foreground?: string;
   info?: string;
   infoContent?: string;
@@ -23,13 +24,21 @@ export type InputTheme = {
 
 export type FullTheme = Required<InputTheme> & {
   primary2: string;
+  primary3: string;
   secondary2: string;
+  secondary3: string;
   accent2: string;
+  accent3: string;
   neutral2: string;
+  neutral3: string;
   info2: string;
+  info3: string;
   success2: string;
+  success3: string;
   warning2: string;
+  warning3: string;
   error2: string;
+  error3: string;
   // tamagui
   // background: string;
   // backgroundHover: string;

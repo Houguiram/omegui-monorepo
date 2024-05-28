@@ -17,28 +17,23 @@ const CustomButton = styled(TamaguiButton, {
     borderColor: "transparent",
   },
   pressStyle: {
-    scale: 0.95,
-    backgroundColor: "$background3",
+    scale: 0.99,
+    backgroundColor: "$background4",
   },
   focusStyle: {
-    backgroundColor: "$background3",
+    backgroundColor: "$background4",
   },
-  // borderColor: convertedFullTheme.neutral,
-  // borderColorHover: convertedFullTheme.neutral,
-  // color: convertedFullTheme.foreground,
-  // colorHover: convertedFullTheme.foreground,
-  // colorPress: convertedFullTheme.foreground,
-  // colorFocus: convertedFullTheme.foreground,
+  outlineColor: "$foreground",
   variants: {
     variant: {
       primary: {
         color: "$primaryContent",
         backgroundColor: "$primary",
         pressStyle: {
-          backgroundColor: "$primary2",
+          backgroundColor: "$primary3",
         },
         focusStyle: {
-          backgroundColor: "$primary2",
+          backgroundColor: "$primary3",
         },
         hoverStyle: {
           backgroundColor: "$primary2",
@@ -48,10 +43,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$neutralContent",
         backgroundColor: "$neutral",
         pressStyle: {
-          backgroundColor: "$neutral2",
+          backgroundColor: "$neutral3",
         },
         focusStyle: {
-          backgroundColor: "$neutral2",
+          backgroundColor: "$neutral3",
         },
         hoverStyle: {
           backgroundColor: "$neutral2",
@@ -61,10 +56,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$secondaryContent",
         backgroundColor: "$secondary",
         pressStyle: {
-          backgroundColor: "$secondary2",
+          backgroundColor: "$secondary3",
         },
         focusStyle: {
-          backgroundColor: "$secondary2",
+          backgroundColor: "$secondary3",
         },
         hoverStyle: {
           backgroundColor: "$secondary2",
@@ -74,10 +69,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$accentContent",
         backgroundColor: "$accent",
         pressStyle: {
-          backgroundColor: "$accent2",
+          backgroundColor: "$accent3",
         },
         focusStyle: {
-          backgroundColor: "$accent2",
+          backgroundColor: "$accent3",
         },
         hoverStyle: {
           backgroundColor: "$accent2",
@@ -87,10 +82,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$infoContent",
         backgroundColor: "$info",
         pressStyle: {
-          backgroundColor: "$info2",
+          backgroundColor: "$info3",
         },
         focusStyle: {
-          backgroundColor: "$info2",
+          backgroundColor: "$info3",
         },
         hoverStyle: {
           backgroundColor: "$info2",
@@ -100,10 +95,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$successContent",
         backgroundColor: "$success",
         pressStyle: {
-          backgroundColor: "$success2",
+          backgroundColor: "$success3",
         },
         focusStyle: {
-          backgroundColor: "$success2",
+          backgroundColor: "$success3",
         },
         hoverStyle: {
           backgroundColor: "$success2",
@@ -113,10 +108,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$warningContent",
         backgroundColor: "$warning",
         pressStyle: {
-          backgroundColor: "$warning2",
+          backgroundColor: "$warning3",
         },
         focusStyle: {
-          backgroundColor: "$warning2",
+          backgroundColor: "$warning3",
         },
         hoverStyle: {
           backgroundColor: "$warning2",
@@ -126,10 +121,10 @@ const CustomButton = styled(TamaguiButton, {
         color: "$errorContent",
         backgroundColor: "$error",
         pressStyle: {
-          backgroundColor: "$error2",
+          backgroundColor: "$error3",
         },
         focusStyle: {
-          backgroundColor: "$error2",
+          backgroundColor: "$error3",
         },
         hoverStyle: {
           backgroundColor: "$error2",
