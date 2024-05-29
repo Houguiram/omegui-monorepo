@@ -1,8 +1,3 @@
-# Git hooks to ensure we do not commit / push obviously broken code
-#
-#   Refer for explanation to following link:
-#   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
-#
 rc: ~/.lefthookrc
 
 pre-commit:
