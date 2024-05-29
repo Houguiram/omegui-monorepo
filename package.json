@@ -2,11 +2,11 @@
   "name": "omegui",
   "private": true,
   "version": "0.1.6",
-  "workspaces": [
-    "packages/*",
-    "apps/*"
-  ],
+  "workspaces": ["packages/*", "apps/*"],
   "scripts": {
     "test": "bun --filter '*' test"
+  },
+  "devDependencies": {
+    "lefthook": "^1.6.13"
   }
 }
